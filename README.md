@@ -42,7 +42,7 @@ Este projeto é uma aplicação web simples que permite a busca de informações
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/seu-usuario/nome-do-projeto.git
+   git clone https://github.com/iguinhozinho/projeto_api.git
    ```
 
 2. Navegue até o diretório do projeto:
@@ -66,7 +66,7 @@ Este projeto é uma aplicação web simples que permite a busca de informações
    flask run
    ```
 
-6. Acesse o projeto no navegador em `http://localhost:5000`.
+6. Acesse o projeto no navegador em `http://127.0.0.1:5000/`.
 
 ## Estrutura do Projeto
 
