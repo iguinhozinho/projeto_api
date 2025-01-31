@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-=======
-
->>>>>>> 5d56f8762c88caa38e31df2a32f2f84b46644a71
 # Validação de CEP e CPF
 
 Este projeto é uma aplicação web simples que permite a busca de informações de endereço a partir de um CEP e a validação de um CPF. Utilizamos uma API pública (ViaCEP) para buscar dados de endereço e implementamos uma validação básica de CPF. O projeto foi desenvolvido utilizando **Flask**, **Python**, e **Bootstrap** para o frontend, com suporte para APIs REST.
