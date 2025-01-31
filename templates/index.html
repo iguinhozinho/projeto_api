@@ -7,6 +7,7 @@
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
+<<<<<<< HEAD
     />
     <link
       rel="stylesheet"
@@ -15,11 +16,16 @@
     <link
       rel="stylesheet"
       href="{{ url_for('static', filename='css/style.css') }}"
+=======
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+>>>>>>> 5d56f8762c88caa38e31df2a32f2f84b46644a71
     />
   </head>
   <body>
     <div class="container mt-5">
       <div class="row justify-content-center">
+<<<<<<< HEAD
         <div class="col-md-8">
           <div class="card">
             {% with messages = get_flashed_messages() %} {% if messages %} {%
@@ -78,6 +84,55 @@
             </div>
             {% endif %}
           </div>
+=======
+        <div class="col-md-6">
+          <h1 class="text-center mb-4">Validação de CEP e CPF</h1>
+          <form method="POST" action="/buscar">
+            <div class="mb-3">
+              <label for="cep" class="form-label">Digite o CEP:</label>
+              <input
+                type="text"
+                class="form-control"
+                id="cep"
+                name="cep"
+                placeholder="Ex: 12345-678"
+                required
+              />
+            </div>
+            <div class="mb-3">
+              <label for="cpf" class="form-label">Digite o CPF:</label>
+              <input
+                type="text"
+                class="form-control"
+                id="cpf"
+                name="cpf"
+                placeholder="Ex: 123.456.789-09"
+                required
+              />
+            </div>
+            <button type="submit" class="btn btn-primary w-100">Buscar</button>
+          </form>
+
+          {% if endereco %}
+          <div class="mt-4">
+            <h3>Resultado da Busca de Endereço:</h3>
+            <p><strong>CEP:</strong> {{ endereco.cep }}</p>
+            <p><strong>Logradouro:</strong> {{ endereco.logradouro }}</p>
+            <p><strong>Bairro:</strong> {{ endereco.bairro }}</p>
+            <p><strong>Cidade:</strong> {{ endereco.localidade }}</p>
+            <p><strong>Estado:</strong> {{ endereco.uf }}</p>
+          </div>
+          {% endif %} {% if cpf_valido is not none %}
+          <div class="mt-4">
+            <h3>Resultado da Validação de CPF:</h3>
+            {% if cpf_valido %}
+            <p class="text-success">O CPF é <strong>válido</strong>.</p>
+            {% else %}
+            <p class="text-danger">O CPF é <strong>inválido</strong>.</p>
+            {% endif %}
+          </div>
+          {% endif %}
+>>>>>>> 5d56f8762c88caa38e31df2a32f2f84b46644a71
         </div>
       </div>
     </div>
