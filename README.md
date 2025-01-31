@@ -1,4 +1,7 @@
+<<<<<<< HEAD
+=======
 
+>>>>>>> 5d56f8762c88caa38e31df2a32f2f84b46644a71
 # Validação de CEP e CPF
 
 Este projeto é uma aplicação web simples que permite a busca de informações de endereço a partir de um CEP e a validação de um CPF. Utilizamos uma API pública (ViaCEP) para buscar dados de endereço e implementamos uma validação básica de CPF. O projeto foi desenvolvido utilizando **Flask**, **Python**, e **Bootstrap** para o frontend, com suporte para APIs REST.
@@ -20,12 +23,20 @@ Este projeto é uma aplicação web simples que permite a busca de informações
 - **Flask**: Framework web em Python usado para criar as rotas e processar os formulários.
 - **HTML/CSS**: Linguagens utilizadas para estruturar e estilizar a interface da aplicação.
 - **Bootstrap**: Biblioteca de CSS para estilização e responsividade da interface.
+<<<<<<< HEAD
+- **Font Awesome**: Biblioteca de ícones utilizada para melhorar a interface do usuário.
+=======
+>>>>>>> 5d56f8762c88caa38e31df2a32f2f84b46644a71
 
 ### APIs Utilizadas
 
 - **ViaCEP API**: Usada para buscar informações de endereço a partir de um CEP. A API retorna dados como logradouro, bairro, cidade e estado.
   - **Documentação**: [ViaCEP API](https://viacep.com.br)
+<<<<<<< HEAD
+
+=======
   
+>>>>>>> 5d56f8762c88caa38e31df2a32f2f84b46644a71
 ### Bibliotecas Externas
 
 - **Requests**: Utilizada para fazer requisições HTTP à API ViaCEP.
@@ -41,29 +52,51 @@ Este projeto é uma aplicação web simples que permite a busca de informações
 ### Passos para Executar
 
 1. Clone o repositório:
+<<<<<<< HEAD
+
+=======
+>>>>>>> 5d56f8762c88caa38e31df2a32f2f84b46644a71
    ```bash
    git clone https://github.com/iguinhozinho/projeto_api.git
    ```
 
 2. Navegue até o diretório do projeto:
+<<<<<<< HEAD
+
+=======
+>>>>>>> 5d56f8762c88caa38e31df2a32f2f84b46644a71
    ```bash
    cd nome-do-projeto
    ```
 
 3. Crie e ative um ambiente virtual (opcional, mas recomendado):
+<<<<<<< HEAD
+
+=======
+>>>>>>> 5d56f8762c88caa38e31df2a32f2f84b46644a71
    ```bash
    python -m venv venv
    source venv/bin/activate  # No Windows, use `venv\Scripts\activate`
    ```
 
 4. Instale as dependências:
+<<<<<<< HEAD
+
+=======
+>>>>>>> 5d56f8762c88caa38e31df2a32f2f84b46644a71
    ```bash
    pip install -r requirements.txt
    ```
 
 5. Execute a aplicação:
+<<<<<<< HEAD
+
+   ```bash
+   python app.py
+=======
    ```bash
    flask run
+>>>>>>> 5d56f8762c88caa38e31df2a32f2f84b46644a71
    ```
 
 6. Acesse o projeto no navegador em `http://127.0.0.1:5000/`.
@@ -73,6 +106,16 @@ Este projeto é uma aplicação web simples que permite a busca de informações
 ```bash
 .
 ├── app.py                 # Arquivo principal do Flask com as rotas
+<<<<<<< HEAD
+├── static/               # Arquivos estáticos
+│   └── css/             # Estilos CSS
+│       └── style.css    # Arquivo CSS principal
+├── templates/           # Templates HTML
+│   └── index.html      # Página HTML principal
+├── README.md           # Este arquivo
+├── requirements.txt    # Dependências do Python
+└── .gitignore         # Arquivos a serem ignorados no Git
+=======
 ├── templates
 │   └── index.html         # Página HTML principal
 ├── static
@@ -80,6 +123,7 @@ Este projeto é uma aplicação web simples que permite a busca de informações
 ├── README.md              # Este arquivo
 ├── requirements.txt       # Dependências do Python
 └── .gitignore             # Arquivos a serem ignorados no Git
+>>>>>>> 5d56f8762c88caa38e31df2a32f2f84b46644a71
 ```
 
 ## Endpoints
@@ -87,7 +131,11 @@ Este projeto é uma aplicação web simples que permite a busca de informações
 ### 1. Página inicial (`/`)
 
 - Exibe o formulário para inserir o CEP e CPF.
+<<<<<<< HEAD
+
+=======
   
+>>>>>>> 5d56f8762c88caa38e31df2a32f2f84b46644a71
 ### 2. Rota de busca (`/buscar`)
 
 - Processa os dados do formulário e exibe os resultados da busca de endereço e validação de CPF.
