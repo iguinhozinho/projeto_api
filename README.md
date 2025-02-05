@@ -19,20 +19,16 @@ Este projeto é uma aplicação web simples que permite a busca de informações
 - **Flask**: Framework web em Python usado para criar as rotas e processar os formulários.
 - **HTML/CSS**: Linguagens utilizadas para estruturar e estilizar a interface da aplicação.
 - **Bootstrap**: Biblioteca de CSS para estilização e responsividade da interface.
-<<<<<<< HEAD
 - **Font Awesome**: Biblioteca de ícones utilizada para melhorar a interface do usuário.
 =======
->>>>>>> 5d56f8762c88caa38e31df2a32f2f84b46644a71
 
 ### APIs Utilizadas
 
 - **ViaCEP API**: Usada para buscar informações de endereço a partir de um CEP. A API retorna dados como logradouro, bairro, cidade e estado.
   - **Documentação**: [ViaCEP API](https://viacep.com.br)
-<<<<<<< HEAD
 
 =======
   
->>>>>>> 5d56f8762c88caa38e31df2a32f2f84b46644a71
 ### Bibliotecas Externas
 
 - **Requests**: Utilizada para fazer requisições HTTP à API ViaCEP.
@@ -48,38 +44,30 @@ Este projeto é uma aplicação web simples que permite a busca de informações
 ### Passos para Executar
 
 1. Clone o repositório:
-<<<<<<< HEAD
 
 =======
->>>>>>> 5d56f8762c88caa38e31df2a32f2f84b46644a71
    ```bash
    git clone https://github.com/iguinhozinho/projeto_api.git
    ```
 
 2. Navegue até o diretório do projeto:
-<<<<<<< HEAD
 
 =======
->>>>>>> 5d56f8762c88caa38e31df2a32f2f84b46644a71
    ```bash
    cd nome-do-projeto
    ```
 
 3. Crie e ative um ambiente virtual (opcional, mas recomendado):
-<<<<<<< HEAD
 
 =======
->>>>>>> 5d56f8762c88caa38e31df2a32f2f84b46644a71
    ```bash
    python -m venv venv
    source venv/bin/activate  # No Windows, use `venv\Scripts\activate`
    ```
 
 4. Instale as dependências:
-<<<<<<< HEAD
 
 =======
->>>>>>> 5d56f8762c88caa38e31df2a32f2f84b46644a71
    ```bash
    pip install -r requirements.txt
    ```
@@ -92,7 +80,6 @@ Este projeto é uma aplicação web simples que permite a busca de informações
 =======
    ```bash
    flask run
->>>>>>> 5d56f8762c88caa38e31df2a32f2f84b46644a71
    ```
 
 6. Acesse o projeto no navegador em `http://127.0.0.1:5000/`.
@@ -119,7 +106,6 @@ Este projeto é uma aplicação web simples que permite a busca de informações
 ├── README.md              # Este arquivo
 ├── requirements.txt       # Dependências do Python
 └── .gitignore             # Arquivos a serem ignorados no Git
->>>>>>> 5d56f8762c88caa38e31df2a32f2f84b46644a71
 ```
 
 ## Endpoints
@@ -127,31 +113,12 @@ Este projeto é uma aplicação web simples que permite a busca de informações
 ### 1. Página inicial (`/`)
 
 - Exibe o formulário para inserir o CEP e CPF.
-<<<<<<< HEAD
 
 =======
   
->>>>>>> 5d56f8762c88caa38e31df2a32f2f84b46644a71
 ### 2. Rota de busca (`/buscar`)
 
 - Processa os dados do formulário e exibe os resultados da busca de endereço e validação de CPF.
-
-## Como Contribuir
-
-1. Faça um fork do projeto.
-2. Crie uma nova branch:
-   ```bash
-   git checkout -b feature/nova-feature
-   ```
-3. Faça suas alterações e commite:
-   ```bash
-   git commit -m "Adiciona nova feature"
-   ```
-4. Envie para o seu fork:
-   ```bash
-   git push origin feature/nova-feature
-   ```
-5. Abra um Pull Request para o repositório original.
 
 ## Licença
 
